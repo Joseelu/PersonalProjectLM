@@ -1,0 +1,27 @@
+/*********************************************************************************************/
+/*      hoja de estilo de index.html                                                      */
+/*      autor: José Luis Báez Torres                                                         */
+/*      version: 1.0                                                                         */
+/*      fecha: noviembre 2023                                                                  */
+/*********************************************************************************************/
+
+/* Fuentes */
+
+@font-face {
+    font-family:textonormal ;
+    src: url(../fonts/FuturaCyrillicBook.ttf)
+}
+
+@font-face {
+    font-family:titulo ;
+    src: url(../fonts/FuturaCyrillicExtraBold.ttf);
+}
+
+*{box-sizing: border-box ;}
+
+body{background-color:rgb(255,250,237);}
+
+.welcome {
+    width: 500px;
+    height: auto;
+}

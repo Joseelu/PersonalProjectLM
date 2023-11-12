@@ -19,7 +19,8 @@
 
 *{box-sizing: border-box ;}
 
-body{background-color:rgb(255,250,237);
+body {
+    background-color:rgb(255,250,237);
     margin: 0;
     padding: 0;
 
@@ -29,20 +30,22 @@ body{background-color:rgb(255,250,237);
     margin: 0;
     padding: 0;
     margin-top: 4%;
+    margin-bottom: 10px;
     text-align: center;
     font-family: titulo;
-    font-size: 50px;
+    font-size: 5vw;
 
 }
 
 #welcome {
-
+    max-width: 100%;
     width: 700px;
     height: auto;
     vertical-align: middle;
-    margin:0;
+    margin:0 auto;
+    margin-bottom: 10px;
     padding:0;
-    
+    object-fit: cover;
 }
 
 #Welcomeimg {
@@ -52,34 +55,74 @@ body{background-color:rgb(255,250,237);
 
 #nav {
     background-color: black;
-    width: auto;
+    width: 100%;
     height: auto;
-    padding:10px 0;
+    padding:1vw 0;
+    ;
 }
 
 #quote {
-    width: auto;
+    width: 100%;
     height: auto;
-    padding:0;
+    padding: 10px;
     margin:auto;
     text-align: center;
     margin-bottom: 5%;
 
     font-family: textonormal;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 #Footer {
 
-    width: auto;
-    height: 200px;
-    padding:0;
+    width: 100%;
+    height: auto;
+    padding: 1vw 0;
     margin:auto;
     background-color: rgb(30, 30, 30);
+    color: white
 
     
 }
 
-.letrafooter {
+#updatebox {
+    background-color: white;
+    margin: 2vw;
+    padding: 2vw;
+    text-align: center;
+    font-family: textonormal;
+    margin-bottom: 5%
+}
+
+#updatetitle {
+    background-color: black;
     color: white;
+    padding: 2vw;
+    margin: 2vw;
+    text-align: center;
+    font-family: titulo;
+}
+
+@media only screen and (max-width: 768px) {
+    #Title {
+        font-size: 3vw;
+    }
+
+    #welcome {
+        width: 100%;
+    }
+
+    #quote {
+        font-size: 1.5vw;
+    }
+    
+    #updatebox {
+            margin: 1vw;
+            padding: 1vw;
+        }
+    
+    #updatetitle{
+        margin: 1vw;
+        padding: 1vw;
+    }
 }

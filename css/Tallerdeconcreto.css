@@ -29,21 +29,20 @@ body {
 #Title {
     margin: 0;
     padding: 0;
-    margin-top: 4%;
+    margin-top: 1%;
     margin-bottom: 10px;
     text-align: center;
     font-family: titulo;
-    font-size: 5vw;
+    font-size: 6vw;
 
 }
 
 #welcome {
     max-width: 100%;
-    width: 700px;
     height: auto;
     vertical-align: middle;
-    margin:0 auto;
-    margin-bottom: 10px;
+    margin:auto;
+    margin-bottom: 5px;
     padding:0;
     object-fit: cover;
 }
@@ -67,7 +66,7 @@ body {
     padding: 10px;
     margin:auto;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 
     font-family: textonormal;
     font-size: 2vw;
@@ -91,7 +90,11 @@ body {
     padding: 2vw;
     text-align: center;
     font-family: textonormal;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+    margin-top: 0;
+    border: 2px black;
+    border-radius: 0 0 20px 20px;
+    
 }
 
 #updatetitle {
@@ -101,19 +104,23 @@ body {
     margin: 2vw;
     text-align: center;
     font-family: titulo;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0;
+    border: 2px white
 }
 
 @media only screen and (max-width: 768px) {
     #Title {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #welcome {
         width: 100%;
+        margin-bottom: 10px;
     }
 
     #quote {
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
     
     #updatebox {

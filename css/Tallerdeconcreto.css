@@ -26,6 +26,23 @@ body {
 
     }
 
+#nav {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding:1.5vw 0;
+    text-align: center;
+    font-family: titulo;
+    margin:0px;
+    
+}
+#nav nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 60px;
+    font-size: 1.7vw;
+    white-space: nowrap;
+}
 #Title {
     margin: 0;
     padding: 0;
@@ -50,14 +67,6 @@ body {
     text-align: center;
 }
 
-#nav {
-    background-color: black;
-    width: 100%;
-    height: auto;
-    padding:1vw 0;
-    ;
-}
-
 #quote {
     width: 100%;
     height: auto;
@@ -68,6 +77,29 @@ body {
 
     font-family: textonormal;
     font-size: 3vw;
+}
+
+#updatetitle {
+    background-color: black;
+    color: white;
+    padding: 1.5vw;
+    margin: 2vw;
+    text-align: center;
+    font-family: titulo;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0;}
+
+
+#updatebox {
+    background-color: white;
+    margin: 2vw;
+    padding: 2vw;
+    text-align: center;
+    font-family: textonormal;
+    margin-bottom: 40px;
+    margin-top: 0;
+    border-radius: 0 0 20px 20px;
+    
 }
 
 #Footer {
@@ -82,30 +114,18 @@ body {
     
 }
 
-#updatebox {
-    background-color: white;
-    margin: 2vw;
-    padding: 2vw;
-    text-align: center;
-    font-family: textonormal;
-    margin-bottom: 40px;
-    margin-top: 0;
-    border-radius: 0 0 20px 20px;
-    
-}
-
-#updatetitle {
-    background-color: black;
-    color: white;
-    padding: 2vw;
-    margin: 2vw;
-    text-align: center;
-    font-family: titulo;
-    margin-bottom: 0;
-    border-radius: 20px 20px 0 0;
-}
-
 @media only screen and (max-width: 768px) {
+    #nav{
+        flex-wrap: nowrap;
+        overflow: auto;
+        justify-content: flex-start;
+    }
+
+    #nav nav a {
+        margin: 10px 10px;
+        font-size: 3vw;
+    }
+
     #Title {
         margin-top: 20px;;
         font-size: 50px;

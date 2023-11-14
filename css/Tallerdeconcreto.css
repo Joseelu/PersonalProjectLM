@@ -29,11 +29,10 @@ body {
 #Title {
     margin: 0;
     padding: 0;
-    margin-top: 1%;
-    margin-bottom: 10px;
+    margin-top: 20px;
     text-align: center;
     font-family: titulo;
-    font-size: 6vw;
+    font-size: 60px;
 
 }
 
@@ -41,15 +40,14 @@ body {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    margin:auto;
-    margin-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding:0;
     object-fit: cover;
 }
 
 #Welcomeimg {
     text-align: center;
-    line-height: 80vh;
 }
 
 #nav {
@@ -69,7 +67,7 @@ body {
     margin-bottom: 10px;
 
     font-family: textonormal;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 #Footer {
@@ -90,9 +88,8 @@ body {
     padding: 2vw;
     text-align: center;
     font-family: textonormal;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
     margin-top: 0;
-    border: 2px black;
     border-radius: 0 0 20px 20px;
     
 }
@@ -106,21 +103,24 @@ body {
     font-family: titulo;
     margin-bottom: 0;
     border-radius: 20px 20px 0 0;
-    border: 2px white
 }
 
 @media only screen and (max-width: 768px) {
     #Title {
-        font-size: 4vw;
+        margin-top: 20px;;
+        font-size: 50px;
     }
 
     #welcome {
-        width: 100%;
-        margin-bottom: 10px;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     #quote {
-        font-size: 3vw;
+        font-size: 20px;
+        margin-top: auto;
+
     }
     
     #updatebox {
@@ -132,4 +132,9 @@ body {
         margin: 1vw;
         padding: 1vw;
     }
+
+    #Footer {
+            margin-top: 3vw;
+    }
+    
 }

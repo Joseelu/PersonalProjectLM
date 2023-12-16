@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler, The Creator</title>
     <link rel="stylesheet" href="./css/Tallerdeconcreto.css">
-    <script src="./js/Tallerdeconcreto.js"></script>
     <link rel="shortcut icon" href="./img/star.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-        <nav>
-                <a href="index.html" class="navtext">Inicio</a> <!-- target="_blank" rel="nooper noreferrer" para abrirlo en otra pestaña-->
-                <a href="biografia.html" class="navtext">Biografia</a>
-                <a href="disc.html" class="navtext">Discografia</a>
-                <a href="galery.html" class="navtext">Galeria</a>
+<body id="body">
+<header>
+        <div id="boton">
+        <button id="btn_open">MENU</button>
+        </div>
+        <a class="titulo">Tyler, the Creator</a>
+</header>
+
+<nav class="menu" id="menu">
+        <li><a class="nav_options" href="#">Inicio</a>
+        <li><a class="nav_options" href="#">Biografia</a></li>
+        <li><a class="nav_options" href="#">Discografia</a></li>
+        <li><a class="nav_options" href="#">Galeria</a></li>
         </nav>
-<h1 id="Title">Tyler, The Creator</h1>
+</nav>
 <div id="Welcomeimg">
     <img id="welcome" src="./img/Welcome.png" alt="">
 </div>
@@ -68,6 +74,6 @@
         </div>
 
 </footer>
-
+<script src="./js/Tallerdeconcreto.js"></script>
 </body>
 </html>

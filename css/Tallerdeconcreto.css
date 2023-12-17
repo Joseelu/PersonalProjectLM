@@ -322,7 +322,7 @@ p{
 	100% {margin-left: -300%;}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1350px) {
     #btn_open{
         font-size: 4vw;
     }
@@ -377,13 +377,31 @@ p{
     .menu__side_move{
         width: 140px;
     }
-}
-.slider-frame {
-	width: 360px;
-    height: auto;
-	margin:50px auto 0;
-	overflow: hidden;
-}
-#child{
-    width: 60%;
+    .slider-frame {
+        width: 360px;
+        height: auto;
+        margin:50px auto 0;
+        overflow: hidden;
+    }
+    
+    .album{
+        grid-template-columns: 1fr;
+    }
+
+    #childhood{
+        grid-template-columns: 1fr;
+
+    }
+
+    #child{
+        padding-left: 10%;
+        padding-top: 10%;
+        width: 80%;
+        height: auto;
+    }
+
+    .slider-frame{
+        padding-bottom: 15%;
+        padding-top: 15%;
+    }
 }

@@ -214,6 +214,48 @@ button{
     width: 50%;
 }
 
+#bastard{
+    background-color: black;
+    padding: 5%;
+}
+
+#goblin{
+    background-color: #94A6A6;
+    padding: 5%;
+}
+
+#wolf{
+    background-color: turquoise;
+    padding: 5%;
+}
+
+#flowerboy{
+    background-color: #ffb028;
+    padding: 5%;
+}
+
+#igor{
+    background-color: rgb(245, 171, 183);
+    padding: 5%;
+}
+
+#cmiygl{
+    background-color:#b3e5ff;
+    padding: 5%;
+}
+
+.cover{
+    padding-left: 10%;
+    width: 80%;
+}
+.album{
+    color: white;
+    font-family: textonormal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
 footer {
     display: grid;
     grid-template-columns: 15vw 13vw 10vw;

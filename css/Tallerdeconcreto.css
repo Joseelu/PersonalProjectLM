@@ -195,12 +195,12 @@ p{
 }
 /* clases para js*/
 .body_move{
-    margin-left: 100px;
+    margin-left: 120px;
     transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 .menu__side_move{
-    width: 100px;
+    width: 120px;
 }
 
 
